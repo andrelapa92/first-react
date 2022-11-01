@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import logo from './Andre.png';
 import './App.css';
 
 function App() {
+  let num = 3**2;
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <div id="texto">
+          <h1>A variável num é: {num}</h1>
+        </div>
       </header>
+      <body>
+      </body>
     </div>
   );
 }
